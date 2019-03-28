@@ -1,0 +1,11 @@
+{
+  "name": "cli-spinner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://fabianmieller@github.com/fabianmieller/cli-spinner.git",
+  "author": "Fabian Mieller <kontakt@fabianmieller.de>",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^3.2.0"
+  }
+}
