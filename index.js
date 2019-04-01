@@ -8,9 +8,9 @@ const throbber = ora({
     },
   }).start();
 
-  setTimeout(() => {
-    throbber.stopAndPersist({
-        symbol: '😀 👍',
-        text: ' Finished!',
-    });
-  }, 1000 * 5);
+setTimeout(() => {
+  throbber.stopAndPersist({
+      symbol: '😀 👍',
+      text: ' Finished!',
+  });
+}, 1000 * 5);
